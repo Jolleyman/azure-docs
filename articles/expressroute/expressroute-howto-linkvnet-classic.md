@@ -153,6 +153,10 @@ The circuit user can run the following cmdlet to redeem a link authorization:
     ----- --------
     Provisioned SalesVNET1
 
+
+**Deleting a Classic VNet link**
+Remove-AzureDedicatedCircuitLink -ServiceKey <YourServiceKey> -VNetName <YourVnet> 
+
 ## Next steps
 For more information about ExpressRoute, see the [ExpressRoute FAQ](expressroute-faqs.md).
 
